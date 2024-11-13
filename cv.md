@@ -31,3 +31,16 @@ My name is _Eugene_. I'm _29_ years old. And I'm from _Belarus_. I'm here at the
 - VS Code
 
 ---
+
+## Code example:
+
+Finish the solution so that it sorts the passed in array of numbers. If the function passes in an empty array or null/nil value then it should return an empty array.
+
+```
+function solution(nums){
+  if (nums === null || nums === undefined) {
+    return []
+  }
+  return nums.sort((a,b) => a - b)
+}
+```
