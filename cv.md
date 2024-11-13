@@ -44,3 +44,15 @@ function solution(nums){
   return nums.sort((a,b) => a - b)
 }
 ```
+
+---
+
+## Courses:
+
+I didn't attend any courses. Just watched some videos on youtube.
+
+## Languages:
+
+1. Russian - Native
+2. English - A2
+3. Polish - A1
