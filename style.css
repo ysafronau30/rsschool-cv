@@ -17,7 +17,12 @@ main {
 
 /* Left container */
 
-.left-container section {
+.left-container,
+.rigth-container {
+  width: 50%;
+}
+
+section {
   margin-top: 25px;
 }
 
@@ -26,7 +31,9 @@ main {
 .contact-list,
 .contact-list li,
 .skills-list,
-.skills-list li {
+.skills-list li,
+.languages-list,
+.languages-list li {
   margin-top: 5px;
 }
 
