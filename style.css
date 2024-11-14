@@ -24,7 +24,9 @@ main {
 /* Contact information*/
 
 .contact-list,
-.contact-list li {
+.contact-list li,
+.skills-list,
+.skills-list li {
   margin-top: 5px;
 }
 
