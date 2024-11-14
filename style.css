@@ -15,11 +15,18 @@ main {
   text-align: center;
 }
 
+.container {
+  width: 100%;
+  font-size: 0;
+}
+
 /* Left container */
 
 .left-container,
-.rigth-container {
+.right-container {
   width: 50%;
+  display: inline-block;
+  font-size: initial;
 }
 
 section {
@@ -45,4 +52,10 @@ section {
 
 .contact-link:hover {
   text-decoration-color: rgba(0, 0, 0, 1);
+}
+
+/* Right container */
+
+.description {
+  margin-top: 8px;
 }
