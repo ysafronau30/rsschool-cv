@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+/* Heading and Profession */
+
+#heading,
+#profession {
+  text-align: center;
+}
+
+/* Left container */
+
+.left-container section {
+  margin-top: 25px;
+}
+
+/* Contact information*/
+
+.contact-list,
+.contact-list li {
+  margin-top: 5px;
+}
+
+.contact-link {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  color: black;
+  transition: text-decoration-color 300ms;
+}
+
+.contact-link:hover {
+  text-decoration-color: rgba(0, 0, 0, 1);
+}
