@@ -52,16 +52,36 @@
           </section>
         </div>
         <div class="right-container">
-          <h3>Briefly about myself:</h3>
-          <p class="description">
-            My name is Eugene. I'm 29 years old. And I'm from Belarus. I'm here
-            at the beginning of the journey to become a junior frontend
-            developer. And I'll try my best to achieve this goal. It'll be
-            difficult but we don't give up. And this is the start of learning
-            new things. Wish me luck.
-          </p>
+          <section>
+            <h3>Briefly about myself:</h3>
+            <p class="description">
+              My name is Eugene. I'm 29 years old. And I'm from Belarus. I'm
+              here at the beginning of the journey to become a junior frontend
+              developer. And I'll try my best to achieve this goal. It'll be
+              difficult but we don't give up. And this is the start of learning
+              new things. Wish me luck.
+            </p>
+          </section>
+          <section class="code-section">
+            <h3>Code example:</h3>
+            <p class="code-text">
+              Finish the solution so that it sorts the passed in array of
+              numbers. If the function passes in an empty array or null/nil
+              value then it should return an empty array.
+            </p>
+            <pre>
+                <code class="code">
+function solution(nums) { 
+    if (nums === null || nums === undefined) { 
+        return [] 
+    } 
+    return nums.sort((a,b) => a - b) }
+                  </code>
+            </pre>
+          </section>
         </div>
       </div>
+      <img src="the_rolling_scopes_school_cover.jpg" alt="The Rolling Scope" />
     </main>
   </body>
 </html>

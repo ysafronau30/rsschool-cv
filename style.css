@@ -22,9 +22,14 @@ main {
 
 /* Left container */
 
-.left-container,
+.left-container {
+  width: 30%;
+  display: inline-block;
+  font-size: initial;
+}
+
 .right-container {
-  width: 50%;
+  width: 70%;
   display: inline-block;
   font-size: initial;
 }
@@ -46,16 +51,37 @@ section {
 
 .contact-link {
   text-decoration: underline 0.15em rgba(0, 0, 0, 0);
-  color: black;
+  color: salmon;
   transition: text-decoration-color 300ms;
 }
 
 .contact-link:hover {
-  text-decoration-color: rgba(0, 0, 0, 1);
+  text-decoration-color: rgb(0, 0, 0);
 }
 
 /* Right container */
 
-.description {
+.code-section {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.description,
+.code-text {
   margin-top: 8px;
+  margin-left: 15px;
+}
+
+.code-section pre {
+  background-color: lightblue;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.code {
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
 }
