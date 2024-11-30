@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+/* Heading and Profession */
+
+#heading,
+#profession {
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  font-size: 0;
+}
+
+/* Left container */
+
+.left-container {
+  width: 30%;
+  display: inline-block;
+  font-size: initial;
+}
+
+.right-container {
+  width: 70%;
+  display: inline-block;
+  font-size: initial;
+}
+
+section {
+  margin-top: 25px;
+}
+
+/* Contact information*/
+
+.contact-list,
+.contact-list li,
+.skills-list,
+.skills-list li,
+.languages-list,
+.languages-list li {
+  margin-top: 5px;
+}
+
+.contact-link {
+  text-decoration: underline 0.15em rgba(0, 0, 0, 0);
+  color: salmon;
+  transition: text-decoration-color 300ms;
+}
+
+.contact-link:hover {
+  text-decoration-color: rgb(0, 0, 0);
+}
+
+/* Right container */
+
+.code-section {
+  margin-top: 75px;
+  margin-bottom: 50px;
+}
+
+.description,
+.code-text {
+  margin-top: 8px;
+  margin-left: 15px;
+}
+
+.code-section pre {
+  background-color: lightblue;
+  text-align: left;
+  margin-top: 8px;
+}
+
+.code {
+  font-size: 15px;
+}
+
+img {
+  width: 100%;
+}
